@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    margin-top:5px;
     padding: 0;
 }
 
@@ -11,11 +12,32 @@
 #nav2{
     display: flex;
     align-items: center;
-    border: 1px black solid;
+    height: 40px;
+}
+
+#Search{
+    display: flex;
+    border: none;
+    background-color: #f0f5ff;
+    border-radius: 10px;
+
 }
 
 #inputdata{
     border: none;
-    height:30px;
-    width:300px;
+    height:35px;
+    width:688px;
+    border-radius: 20px;
+    background-color: #f0f5ff;
 }
+
+
+
+
+#nav5{
+    display: flex;
+    height: 24px;
+    align-items: center; 
+}
+
+
